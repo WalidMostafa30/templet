@@ -994,6 +994,11 @@ form .name-email-form .name:hover {
 
 }
 
+form .name-email-form .name.activ {
+    border: none !important;
+    outline: none !important;
+}
+
 /* end contact */
 
 /* start footer */
@@ -1276,16 +1281,116 @@ footer .foter .walid img {
     header .frist h1 {
         width: 67%;
     }
-}
 
-header h2 {
-    width: 100%;
-}
+    header h2 {
+        padding: 6px;
+        width: 100%;
+        font-size: 27px;
+    }
 
-header .frist img {
-    width: 22%;
-}
+    header .frist img {
+        width: 22%;
+    }
 
-.frist .con-soch a {
-    padding: 7px 11px;
+    .frist .con-soch a {
+        padding: 10px 17px;
+        font-size: 27px;
+    }
+
+    header button {
+        width: 176px !important;
+        border-radius: 35px;
+        padding: 3px;
+        font-size: 28px;
+    }
+
+    .about .imgabout2 h1 {
+        font-size: 40px;
+    }
+
+    .about .imgabout2 img {
+        border-radius: 50%;
+        width: 135px;
+        padding: 8px;
+    }
+
+    .Companies h3 {
+        font-size: 28px;
+    }
+
+    .Companies .imgcom {
+        width: 41%;
+    }
+
+    .SERVICES .imgsec {
+        width: 144px;
+    }
+
+    .SERVICES h2 {
+        color: white;
+        font-size: 36px;
+    }
+
+    .project .imgsec {
+        width: 150px;
+        padding: 11px;
+    }
+
+    .project h2 {
+        color: white;
+        font-size: 35px;
+    }
+
+    .contact .headsec img {
+        width: 157px;
+        padding: 11px;
+    }
+
+    .contact h2 {
+        font-size: 36px;
+    }
+
+    .project {
+        margin: 50px 0px;
+        padding: 0px 4%;
+    }
+
+    .contactinfo .second {
+        margin-top: 20px;
+        padding: 40px 33px;
+    }
+
+    form .buttonform {
+        width: 183px;
+        font-size: 26px;
+    }
+
+    .about {
+        padding: 0px 8%;
+        margin: 45px 0px;
+    }
+
+    .information {
+        padding: 44px 8%;
+    }
+
+    .SERVICES {
+        padding: 6% 8%;
+    }
+
+    .contact {
+        padding: 40px 8%;
+    }
+
+    .contactinfo .frist {
+        padding: 40px 33px;
+    }
+
+    .frist .con-a {
+        justify-content: space-around;
+        font-size: 18px;
+    }
+
+
+
 }
