@@ -106,7 +106,6 @@ header {
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
-    z-index: -1;
     position: relative;
     overflow: hidden;
 }
@@ -118,13 +117,17 @@ header::after {
     border-radius: 50%;
     background-color: #535da1;
     position: absolute;
-    bottom: -100%;
+    bottom: -80%;
     left: 45%;
-    z-index: -1;
+}
+
+.lhead {
+    z-index: 1;
 }
 
 .rhead img {
     width: 80%;
+    z-index: 2;
 }
 
 .rhead {
@@ -165,19 +168,24 @@ header h2 {
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
 }
 
-header button {
-    width: 154px !important;
+header a {
+    width: 154px;
+    text-decoration: none;
     background-color: #535da1;
     color: white;
     border-radius: 30px;
     padding: 10px;
     font-size: 22px;
     border: none;
-    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    font-family: cursive;
+    margin: 12px 0px;
     transition: 0.3s;
 }
 
-header button:hover {
+header a:hover {
+    color: white;
     background-color: #14b789;
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
 }
@@ -1114,8 +1122,8 @@ footer .foter .walid img {
         width: 286px;
     }
 
-    header button {
-        width: 220px !important;
+    header a {
+        width: 220px;
         border-radius: 35px;
         padding: 14px;
         font-size: 28px;
@@ -1336,8 +1344,8 @@ footer .foter .walid img {
         font-size: 27px;
     }
 
-    header button {
-        width: 176px !important;
+    header a {
+        width: 176px;
         border-radius: 35px;
         padding: 3px;
         font-size: 28px;
