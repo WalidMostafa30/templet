@@ -1078,7 +1078,7 @@ footer .foter:hover .w2 {
 
 footer .foter .walid img {
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     width: 80px;
     left: 8px;
     transition: 0.3s;
@@ -1087,6 +1087,10 @@ footer .foter .walid img {
 /* end footer */
 
 @media screen and (max-width: 992px) {
+    .call {
+        display: none;
+    }
+
     header {
         flex-wrap: wrap;
         text-align: center;
@@ -1404,4 +1408,31 @@ footer .foter .walid img {
     .info1 .span1 {
         font-size: 14px;
     }
+
+    form .name-email-form {
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+
+    form .name-email-form .parentname {
+        width: 100%;
+    }
+
+    form .name-email-form .parentemail {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    form .website .web1 {
+        width: 48%;
+        margin-top: 20px;
+    }
+
+    form .website {
+        flex-wrap: wrap;
+    }
+
+
+
+
 }
