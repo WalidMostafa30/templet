@@ -8,7 +8,6 @@ body {
     position: relative;
 }
 
-
 /* start nav */
 
 .navbar {
@@ -108,8 +107,21 @@ header {
     padding-left: 5%;
     padding-right: 5%;
     z-index: -1;
+    position: relative;
+    overflow: hidden;
 }
 
+header::after {
+    content: "";
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: #535da1;
+    position: absolute;
+    bottom: -100%;
+    left: 45%;
+    z-index: -1;
+}
 
 .rhead img {
     width: 80%;
@@ -1109,6 +1121,13 @@ footer .foter .walid img {
         font-size: 28px;
     }
 
+    header::after {
+        width: 1200px;
+        height: 1200px;
+        bottom: -77%;
+        left: -4%;
+    }
+
     .head {
         width: 100%;
     }
@@ -1216,6 +1235,13 @@ footer .foter .walid img {
         width: 33%;
     }
 
+    header::after {
+        width: 1200px;
+        height: 1200px;
+        bottom: -103%;
+        left: -16%;
+    }
+
     .SERVICES .main {
         padding-top: 30px;
         flex-direction: column;
@@ -1286,6 +1312,13 @@ footer .foter .walid img {
 @media screen and (max-width: 530px) {
     header .frist h1 {
         width: 67%;
+    }
+
+    header::after {
+        width: 1200px;
+        height: 1200px;
+        bottom: -124%;
+        left: -16%;
     }
 
     header h2 {
@@ -1432,6 +1465,13 @@ footer .foter .walid img {
         flex-wrap: wrap;
     }
 
+    footer .w1 {
+        width: 120px;
+    }
+
+    footer .w2 {
+        width: 120px;
+    }
 
 
 
