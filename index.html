@@ -1,443 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/css.css" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <!--################## start nav ##################-->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/css.css">
-    <title>Document</title>
-</head>
-
-</html>
-
-<body data-bs-spy="scroll" data-bs-target="#navbar-example">
-    <!-- start nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light wow fadeInDown" id="navbar-example">
-        <div class="container-fluid">
-            <a class="navbar-brand mx-3 fs-3" href="#">FRIST</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#ABOUT">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#SERVICES">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#PROJECTS">PROJECTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#CONTACT">CONTACT</a>
-                    </li>
-                </ul>
-                <span class="call">
-                    <i class="fa-solid fa-phone"></i>
-                    <a href="#">120-240-9600</a>
-                </span>
-            </div>
-
+    <nav class="Navbar">
+      <div class="Navbar__container container">
+        <a class="Navbar__logo" href="#">Profile</a>
+        <div class="Navbar__links">
+          <a class="Navbar__link active" href="#Home">Home</a>
+          <a class="Navbar__link" href="#ABOUT">ABOUT</a>
+          <a class="Navbar__link" href="#SERVICES">SERVICES</a>
+          <a class="Navbar__link" href="#PROJECTS">PROJECTS</a>
+          <a class="Navbar__link" href="#CONTACT">CONTACT</a>
         </div>
+        <div class="Navbar__brg-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
     </nav>
-    <!-- end nav -->
 
+    <!--################## start header ##################-->
 
-    <!-- start header -->
-    <header id="Home">
-        <div class="lhead wow fadeInLeft ">
-            <div class="frist">
-
-                <img src="imgs/happy-bearded-young-man.jpg">
-                <h1>Hello friend!</h1>
-
-            </div>
-            <h2>I’m available for freelance work.</h2>
-            <a href="#ABOUT">let’s Begin</a>
+    <header class="Home" id="Home">
+      <div class="Home__container container">
+        <div class="Home__title-img">
+          <img
+            class="Home__img"
+            src="imgs/happy-bearded-young-man.jpg"
+            alt="img"
+          />
+          <h1 class="Home__first-title">Hello friend!</h1>
         </div>
-
-        <div class="rhead ">
-            <img class="wow fadeInRight" src="imgs/portrait-happy-excited-man-holding-laptop-computer.png">
-        </div>
+        <h2 class="Home__second-title">I’m available for freelance work</h2>
+        <a class="Home__btn" href="#ABOUT">let’s Begin</a>
+      </div>
     </header>
 
-    <!-- end header -->
+    <!--################## srart about ##################-->
 
-    <!-- srart about -->
-    <section class="about" id="ABOUT">
-        <div class="imgabout wow fadeInUp " data-wow-delay="0.5s">
-            <img src="imgs/couple-working-from-home-together-sofa.jpg" width="100%">
+    <div class="About" id="ABOUT">
+      <div class="global-title container">
+        <div class="global-title__container">
+          <img
+            class="global-title__img"
+            src="imgs/happy-bearded-young-man.jpg"
+          />
+          <h1 class="global-title__name">My Store</h1>
         </div>
+      </div>
 
-        <div class="imgabout2 wow fadeInUp " data-wow-delay="0.5s">
-            <div class="about2h">
-                <h1>My Store</h1>
+      <div class="About__container container">
+        <img class="About__img" src="imgs/1698742206_content_700x455.jpg" />
 
-                <img src="imgs/happy-bearded-young-man.jpg">
-            </div>
-            <h3>a little bit about Joshua</h3>
-            <p>This one-page HTML portfolio is provided by TemplateMo. This layout is based on Bootstrap v5.1.3 CSS
-                and
-                JS libraries. Image credits go to Unsplash and FreePik for images used in this page.</p>
+        <div class="About__section">
+          <h1 class="About__section-title">a little bit about Joshua</h1>
+          <p class="About__section-paragraph">
+            This one-page HTML portfolio is provided by TemplateMo. This layout
+            is based on Bootstrap v5.1.3 CSS and JS libraries. Image credits go
+            to Unsplash and FreePik for images used in this page.
+          </p>
 
-            <p>You are allowed to use this template for your websites. You are not allowed to redistribute the
-                template
-                ZIP file on any other website. Please contact us for more info.</p>
+          <p class="About__section-paragraph">
+            You are allowed to use this template for your websites. You are not
+            allowed to redistribute the template ZIP file on any other website.
+            Please contact us for more info.
+          </p>
         </div>
-        <!-- end about -->
+      </div>
+    </div>
 
-
-    </section>
     <!-- srart infomation -->
-    <section class="information">
-        <div class="infoleft wow fadeInLeft ">
 
-            <div class="info1">
-                <h4>Information</h4>
-                <div class="p1">
-                    <span class="span1">Name</span>
-                    <span class="span2">Joshua Morgan</span>
-                </div>
-                <div class="p2">
-                    <span class="span1">Birthday</span>
-                    <span class="span2">Aug 12, 1986</span>
-                </div>
-                <div class="p1">
-                    <span class="span1">Phone</span>
-                    <span class="span2">120-240-9600</span>
-                </div>
-                <div class="p2">
-                    <span class="span1">Email</span>
-                    <span class="span2">Walid@gmail.com</span>
-                </div>
-            </div>
+    <div class="Information container">
+      <div class="Information__table">
+        <h1 class="Information__table-title">Information</h1>
+        <div class="Information__table-container">
+          <div class="Information__table-headers">
+            <h4 class="Information__table-head">Name</h4>
+            <h4 class="Information__table-head">Birthday</h4>
+            <h4 class="Information__table-head">Phone</h4>
+            <h4 class="Information__table-head">Email</h4>
+          </div>
+          <div class="Information__table-infos">
+            <p class="Information__table-info">Joshua Morgan</p>
+            <p class="Information__table-info">Aug 12, 1986</p>
+            <p class="Information__table-info">120-240-9600</p>
+            <p class="Information__table-info">Walid@gmail.com</p>
+          </div>
+        </div>
+      </div>
 
+      <div class="Information__numbers">
+        <div class="Information__numbers-column">
+          <div class="Information__numbers-child">
+            <h1 class="Information__numbers-num">20+</h1>
+            <p class="Information__numbers-text">Years of Experiences</p>
+          </div>
+
+          <div class="Information__numbers-child">
+            <h1 class="Information__numbers-num">245</h1>
+            <p class="Information__numbers-text">Happy Customers</p>
+          </div>
         </div>
 
-        <div class="inforight wow fadeInRight ">
+        <div class="Information__numbers-column">
+          <div class="Information__numbers-child">
+            <h1 class="Information__numbers-num">640</h1>
+            <p class="Information__numbers-text">Project Finished</p>
+          </div>
 
-            <div class="info2">
-                <div class="div1">
-                    <b>20+</b>
-                    <p>Years of Experiences</p>
-                </div>
-
-                <div class="div2">
-                    <b>245</b>
-                    <p>Happy Customers</p>
-                </div>
-
-                <div class="div3">
-                    <b>640</b>
-                    <p>Project Finished</p>
-                </div>
-
-                <div class="div4">
-                    <b>72+</b>
-                    <p>Digital Awards</p>
-                </div>
-            </div>
-
+          <div class="Information__numbers-child">
+            <h1 class="Information__numbers-num">72+</h1>
+            <p class="Information__numbers-text">Digital Awards</p>
+          </div>
         </div>
-
-
-    </section>
-    <!-- end infomation -->
+      </div>
+    </div>
 
     <!-- start Companies  -->
-    <section class="Companies">
-        <h3 class="wow fadeInUp">Companies I've had worked</h3>
-        <div class="divcom">
-            <div class="imgcom wow fadeInLeft "> <img src="imgs/cachet.svg" width="100%"></div>
-            <div class="imgcom wow fadeInLeft "><img src="imgs/guitar-center.svg" width="100%">
-            </div>
-            <div class="imgcom wow fadeInUp "><img src="imgs/tokico.svg" width="100%"></div>
-            <div class="imgcom wow fadeInRight "> <img src="imgs/shopify.svg" width="100%"></div>
-            <div class="imgcom wow fadeInRight "> <img src="imgs/profil-rejser.svg" width="100%">
-            </div>
-        </div>
-    </section>
 
-    <!-- end Companies  -->
+    <div class="Companies">
+      <div class="Companies__container container">
+        <h2 class="Companies__title">Companies I've had worked</h2>
+        <div class="Companies__section">
+          <img class="Companies__img" src="imgs/cachet.svg" />
+          <img class="Companies__img" src="imgs/guitar-center.svg" />
+          <img class="Companies__img" src="imgs/tokico.svg" />
+          <img class="Companies__img" src="imgs/shopify.svg" />
+          <img class="Companies__img" src="imgs/profil-rejser.svg" />
+        </div>
+      </div>
+    </div>
 
     <!-- start SERVICES  -->
-    <section class="SERVICES" id="SERVICES">
-        <div class="headsec">
-            <div class="imgsec wow fadeInUp ">
-                <img src="imgs/handshake-man-woman-aftersigning-business-contract-closeup.jpg" width="100%">
+
+    <div class="SERVICES" id="SERVICES">
+      <div class="global-title container">
+        <div class="global-title__container">
+          <img
+            class="global-title__img"
+            src="imgs/handshake-man-woman-aftersigning-business-contract-closeup.jpg"
+          />
+          <h1 class="global-title__name">SERVICES</h1>
+        </div>
+      </div>
+
+      <div class="SERVICES__container container">
+        <div class="SERVICES__first-column">
+          <div class="SERVICES__card">
+            <div class="SERVICES__card-head">
+              <h1 class="SERVICES__card-title">Websites</h1>
+              <p class="SERVICES__card-price">$2,400</p>
             </div>
-            <h2 class="wow fadeInDown ">SERVICES</h2>
+
+            <div class="SERVICES__card-body">
+              <p class="SERVICES__card-desc">
+                You may want to explore Too CSS for great collection of free
+                HTML CSS templates.
+              </p>
+
+              <a class="SERVICES__card-btn" href="">Discover More</a>
+
+              <div class="SERVICES__card-icon">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="SERVICES__card">
+            <div class="SERVICES__card-head">
+              <h1 class="SERVICES__card-title">Ecommerce</h1>
+              <p class="SERVICES__card-price">$3,600</p>
+            </div>
+
+            <div class="SERVICES__card-body">
+              <p class="SERVICES__card-desc">
+                If you need a customized ecommerce website for your business,
+                feel free to discuss with me.
+              </p>
+
+              <a class="SERVICES__card-btn" href="">Discover More</a>
+
+              <div class="SERVICES__card-icon">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="main">
-
-            <div class="lmain">
-
-                <div class="contain wow fadeInLeft ">
-                    <div class="headcontain">
-                        <h3>Websites</h3>
-                        <div class="numcon">
-                            <p>$2,400</p>
-                        </div>
-                    </div>
-                    <p>You may want to explore Too CSS for great collection of free HTML CSS templates.</p>
-
-
-                    <a href="">Discover More</a>
-
-                    <div class="icon">
-                        <i class="fa-solid fa-globe"></i>
-                    </div>
-
-                </div>
-
-                <div class="contain wow fadeInLeft ">
-                    <div class="headcontain">
-                        <h3>Ecommerce</h3>
-                        <div class="numcon">
-                            <p>$3,600</p>
-                        </div>
-                    </div>
-                    <p>If you need a customized ecommerce website for your business, feel free to discuss with me.</p>
-
-                    <a href="">Discover More</a>
-
-                    <div class="icon">
-                        <i class="fa-solid fa-mobile-screen-button"></i>
-                    </div>
-                </div>
-
+        <div class="SERVICES__second-column">
+          <div class="SERVICES__card">
+            <div class="SERVICES__card-head">
+              <h1 class="SERVICES__card-title">Branding</h1>
+              <p class="SERVICES__card-price">$1,200</p>
             </div>
 
+            <div class="SERVICES__card-body">
+              <p class="SERVICES__card-desc">
+                You can explore more CSS templates on TemplateMo website by
+                browsing through different tags.
+              </p>
 
-            <div class="rmain">
-                <div class="contain wow fadeInRight ">
-                    <div class="headcontain">
-                        <h3>Branding</h3>
-                        <div class="numcon">
-                            <p>$1,200</p>
-                        </div>
-                    </div>
-                    <p>You can explore more CSS templates on TemplateMo website by browsing through different tags.</p>
+              <a class="SERVICES__card-btn" href="">Discover More</a>
 
-                    <a href="">Discover More</a>
+              <div class="SERVICES__card-icon">
+                <i class="fa-regular fa-lightbulb"></i>
+              </div>
+            </div>
+          </div>
 
-                    <div class="icon">
-                        <i class="fa-regular fa-lightbulb"></i>
-                    </div>
-
-                </div>
-
-                <div class="contain wow fadeInRight ">
-                    <div class="headcontain">
-                        <h3>SEO</h3>
-                        <div class="numcon">
-                            <p>$1,450</p>
-                        </div>
-                    </div>
-                    <p>To list your website first on any search engine, we will work together. First Portfolio is
-                        one-page CSS Template for free download.</p>
-
-                    <a href="">Discover More</a>
-
-                    <div class="icon">
-                        <i class="fa-brands fa-google"></i>
-                    </div>
-                </div>
+          <div class="SERVICES__card">
+            <div class="SERVICES__card-head">
+              <h1 class="SERVICES__card-title">SEO</h1>
+              <p class="SERVICES__card-price">$1,450</p>
             </div>
 
+            <div class="SERVICES__card-body">
+              <p class="SERVICES__card-desc">
+                To list your website first on any search engine, we will work
+                together. First Portfolio is one-page CSS Template for free
+                download.
+              </p>
+
+              <a class="SERVICES__card-btn" href="">Discover More</a>
+
+              <div class="SERVICES__card-icon">
+                <i class="fa-brands fa-google"></i>
+              </div>
+            </div>
+          </div>
         </div>
-
-
-    </section>
-
-    <!-- end SERVICES  -->
-
+      </div>
+    </div>
 
     <!-- start project  -->
-    <section class="project" id="PROJECTS">
 
-        <div class="headsec wow fadeInUp ">
-            <div class="imgsec">
-                <img src="imgs/white-deskwork-study-aesthetics.jpg" width="100%">
-            </div>
-            <h2>Project</h2>
+    <div class="Project" id="PROJECTS">
+      <div class="global-title container">
+        <div class="global-title__container">
+          <img
+            class="global-title__img"
+            src="imgs/white-deskwork-study-aesthetics.jpg"
+          />
+          <h1 class="global-title__name">Project</h1>
         </div>
+      </div>
 
-        <article>
-            <div class="art1 wow fadeInLeft ">
-                <small>BRANDING</small>
-                <h3>Zoik agency</h3>
-                <div class="artimg">
-                    <img src="imgs/nikhil-KO4io-eCAXA-unsplash.jpg" width="100%">
-                </div>
-            </div>
-            <div class="art1 wow fadeInDown ">
-                <small>PHOTOGRAPHY</small>
-                <h3>The Watch</h3>
-                <div class="artimg">
-                    <img src="imgs/true-agency-9Bjog5FZ-oc-unsplash.jpg" width="100%">
-                </div>
-            </div>
-            <div class="art1 wow fadeInRight ">
-                <small>WEBSITE</small>
-                <h3>Polo</h3>
-                <div class="artimg">
-                    <img src="imgs/the-5th-IQYR7N67dhM-unsplash.jpg" width="100%">
-                </div>
-            </div>
-        </article>
-
-    </section>
-
-    <!-- end project  -->
-
+      <div class="Project__container container">
+        <div class="Project__card">
+          <p class="Project__card-title">BRANDING</p>
+          <h3 class="Project__card-name">Zoik agency</h3>
+          <img
+            class="Project__card-img"
+            src="imgs/nikhil-KO4io-eCAXA-unsplash.jpg"
+          />
+        </div>
+        <div class="Project__card">
+          <p class="Project__card-title">PHOTOGRAPHY</p>
+          <h3 class="Project__card-name">The Watch</h3>
+          <img
+            class="Project__card-img"
+            src="imgs/true-agency-9Bjog5FZ-oc-unsplash.jpg"
+          />
+        </div>
+        <div class="Project__card">
+          <p class="Project__card-title">WEBSITE</p>
+          <h3 class="Project__card-name">Polo</h3>
+          <img
+            class="Project__card-img"
+            src="imgs/the-5th-IQYR7N67dhM-unsplash.jpg"
+          />
+        </div>
+      </div>
+    </div>
 
     <!-- start contact  -->
 
-    <div class="contact" id="CONTACT">
-        <div class="headsec wow fadeInRight">
-            <img src="imgs/aerial-view-man-usingcomputer-laptop-wooden-table.jpg">
-            <h2>Say Hi</h2>
+    <div class="Contact" id="CONTACT">
+      <div class="global-title container">
+        <div class="global-title__container">
+          <img
+            class="global-title__img"
+            src="imgs/aerial-view-man-usingcomputer-laptop-wooden-table.jpg"
+          />
+          <h1 class="global-title__name">Say Hi</h1>
         </div>
+      </div>
 
-        <div class="maincontact">
-            <div class="contactinfo">
-                <div class="frist wow fadeInUp">
+      <div class="Contact__container container">
+        <form class="Contact__form">
+          <div class="Contact__form-inputs">
+            <div class="Contact__form-input">
+              <label for="Name">Name</label>
+              <input type="text" id="Name" />
+            </div>
+            <div class="Contact__form-input">
+              <label for="Email">Email address</label>
+              <input type="email" id="Email" />
+            </div>
+          </div>
 
-                    <h4>SERVICES</h4>
-
-                    <div class="con-a">
-                        <a href="#">Websites</a>
-                        <a href="#">Branding</a>
-                        <a href="#">Ecommerce</a>
-                        <a href="#">SEO</a>
-                    </div>
-
-                    <h4>STAY CONNECTED</h4>
-
-                    <div class="con-soch">
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                    </div>
-
-                    <h4>START A PROJECT</h4>
-
-                    <p>I’m available for freelance projects</p>
-                </div>
-
-                <div class="second wow fadeInUp">
-
-                    <h4>ABOUT</h4>
-
-                    <p>Joshua is a professional web developer. Feel free to get in touch with me.</p>
-
-                    <h4>EMAIL</h4>
-
-                    <a href="#">walid@gmail.com</a>
-
-                    <h4>CALL</h4>
-
-                    <p>120-240-9600</p>
-
-                </div>
+          <div class="Contact__form-SERVICES">
+            <div class="Contact__form-SERVICES-card">
+              <i class="fa-solid fa-globe"></i>
+              <p>Websites</p>
             </div>
 
-            <form class="wow fadeInUp">
+            <div class="Contact__form-SERVICES-card">
+              <i class="fa-regular fa-lightbulb"></i>
+              <p>Branding</p>
+            </div>
 
-                <div class="name-email-form">
-                    <div class="form-floating parentname">
-                        <input type="text" class="form-control name" id="floatingPassword" placeholder="Password">
-                        <label for="floatingPassword">Name</label>
-                    </div>
+            <div class="Contact__form-SERVICES-card">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <p>Ecommerce</p>
+            </div>
 
-                    <div class="form-floating parentemail">
-                        <input type="email" class="form-control email" id="floatingInput"
-                            placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
-                    </div>
-                </div>
+            <div class="Contact__form-SERVICES-card">
+              <i class="fa-brands fa-google"></i>
+              <p>SEO</p>
+            </div>
+          </div>
 
-                <div class="website">
-
-                    <div class="web1">
-                        <i class="fa-solid fa-globe"></i>
-                        <p>Websites</p>
-                    </div>
-
-                    <div class="web1">
-                        <i class="fa-regular fa-lightbulb"></i>
-                        <p>Websites</p>
-                    </div>
-
-                    <div class="web1">
-                        <i class="fa-solid fa-mobile-screen-button"></i>
-                        <p>Websites</p>
-                    </div>
-
-                    <div class="web1">
-                        <i class="fa-brands fa-google"></i>
-                        <p>Websites</p>
-                    </div>
-
-                </div>
-
-                <div class="form-floating ">
-                    <textarea class="form-control formcomment" placeholder="Leave a comment here" id="floatingTextarea2"
-                        style="height: 153px;"></textarea>
-                    <label for="floatingTextarea2">Tell me about the project</label>
-                </div>
-                <button class="buttonform">Send</button>
-            </form>
-        </div>
-
+          <div class="Contact__form-textarea">
+            <label for="Textarea">Tell me about the project</label>
+            <textarea id="Textarea"></textarea>
+          </div>
+          <button class="Contact__form-btn">Send</button>
+        </form>
+      </div>
     </div>
-    <!-- end contact  -->
-
-
 
     <!-- start footer  -->
+
     <footer>
-        <div class="foter wow fadeInRight">
-            <span>Design</span>
-            <div class="walid">
-                <p class="w1">Walid</p>
-                <p class="w2">Mostafa</p>
-                <img src="imgs/kindpng_432283.png">
-
-
-            </div>
-        </div>
+      <span>Design</span>
+      <div class="walid-name">
+        <h3>Walid</h3>
+        <h3>Mostafa</h3>
+      </div>
     </footer>
-    <!-- end footer  -->
 
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
