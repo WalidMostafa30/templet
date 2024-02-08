@@ -12,5 +12,7 @@ NavbarLink.forEach((link) => {
       ele.classList.remove("active");
     });
     link.classList.add("active");
+    NavbarLinks.classList.remove("open");
+    navBtn.classList.remove("open");
   });
 });
